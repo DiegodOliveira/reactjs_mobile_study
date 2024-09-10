@@ -1,12 +1,15 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Exercicio02 from './src/components/Exercicio02'
-import Exercicio03 from './src/components/Exercicio03'
+import Exercicio1 from './src/components/Exercicio1'
+import Exercicio2 from './src/components/Exercicio2'
+import Exercicio3 from './src/components/Exercicio3'
+import Exercicio4 from './src/components/Exercicio4'
+import Exercicio5 from './src/components/Exercicio5'
 
 const App = () => {
   return (
     <View>
-        <Exercicio03 />
+      <Exercicio5/>
     </View>
   )
 }
