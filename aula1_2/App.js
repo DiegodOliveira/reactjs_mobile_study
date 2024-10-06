@@ -8,7 +8,7 @@ import Exercicio01 from './src/components/Exercicio01'
 const App = () => {
   return (
     <View>
-        <Exercicio01 nome = 'Diego'/>
+        <Exercicio03/>
     </View>
   )
 }
