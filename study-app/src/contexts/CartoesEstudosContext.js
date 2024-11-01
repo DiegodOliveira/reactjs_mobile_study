@@ -12,8 +12,7 @@ export const CartoesEstudoProvider =  ( {children} ) => {
     }, [])
 
     const carregarCartoes = async () => {
-        const cartoesArmazenados = await AsyncStorage
-        getItem ('cartoes')
+        const cartoesArmazenados = await AsyncStorage.getItem ('cartoes')
         if(cartoesArmazenados) setCartoes(JSON.parse(cartoesArmazenados))
     }
 
